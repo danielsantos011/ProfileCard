@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+*{
+    font-family: "Kumbh Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./profile-card-component-main/images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+}
+
+.main{
+
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 20px;
+    width: 380px; 
+    max-width: 100%;
+    height: 400px;
+}
+
+.top-container{
+    background-image: url(./profile-card-component-main/images/bg-pattern-card.svg);
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 140px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+img{
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    background-position: center;
+    width: 100px;
+    
+}
+
+.img1{
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin-bottom: 50px;
+    
+}
+
+.img2{
+    display: inline;
+    margin-right: 10px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+}
+
+.text #name{
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 100px;
+   
+}
+
+.text #age{
+    display: inline;
+    font-size: 20px;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 100px;
+}
+
+.country #state{
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+hr{
+    margin-bottom: 30px;
+    border: 0.5px solid hsl(0, 0%, 91%);
+
+
+     }
+
+.numbers h1{
+    display: inline;
+    padding: 24px;
+    font-size: 20px;
+
+}
+
+.index p{
+    display: inline;
+    padding:  30px;
+    font-size: 11px;
+}
+
+.index #follow{
+    padding-left: 15px;
+}
+
+.index #like{
+  padding-left: -30px;
+}
+
+.index #foto{
+    padding-right: 20px;
+}
